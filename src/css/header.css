@@ -1,0 +1,137 @@
+.NavBar {
+    background-color: #fff;
+    border-bottom: 1px solid #ebf2f7;
+    height: 50px;
+    width: 100%;
+}
+
+.TopBarComponent {
+    height: 75px;
+    position: relative;
+    width: 100%;
+}
+
+.TopBarComponent .fixed-top.TopBar {
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.TopBarComponent .TopBar {
+    background-image: linear-gradient(90deg, #4cafff, #2e93e6);
+    height: 75px;
+    padding: 12px;
+    z-index: 200;
+}
+
+.TopBarComponent .TopBar .container .navbar-brand img {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+.TopBarComponent .TopBar .container {
+    position: relative;
+}
+
+.TopBarComponent .TopBar .container .navbar-brand {
+    display: block;
+    height: 50px;
+    left: 0;
+    line-height: 50px;
+    opacity: 0;
+    padding-left: inherit;
+    padding-right: inherit;
+    position: absolute;
+    top: 0;
+    transition: opacity .25s ease-in-out;
+}
+
+.TopBarComponent .TopBar .container .navbar-brand {
+    display: block;
+    height: 50px;
+    left: 0;
+    line-height: 50px;
+    opacity: 0;
+    padding-left: inherit;
+    padding-right: inherit;
+    position: absolute;
+    top: 0;
+    transition: opacity .25s ease-in-out;
+}
+
+.TopBarComponent .fixed-top.TopBar .container .search-bar-wrapper {
+    left: 90px;
+}
+
+.TopBarComponent .fixed-top.TopBar .container .navbar-brand {
+    opacity: 1;
+}
+
+.TopBarComponent .TopBar .container .navbar-brand img {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+.TopBarComponent .TopBar .container .search-bar-wrapper {
+    left: 0;
+    padding-left: inherit;
+    padding-right: inherit;
+    position: absolute;
+    right: 0;
+    transition: left .2s ease-in;
+}
+
+.TopBarComponent .fixed-top.TopBar {
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.SearchBar input {
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 16%), 0 0 1px 0 rgb(0 0 0 / 8%);
+    font-family: Inter, helvetica, arial, sans-serif;
+    font-weight: 600;
+    padding: 12px 20px;
+}
+
+.SearchBar {
+    background-color: #fff;
+    display: block;
+    font-size: 16px;
+    position: relative;
+    text-align: left;
+}
+
+.SearchBar,
+.SearchBar input {
+    border-radius: 3px;
+    color: #171717;
+    width: 100%;
+}
+
+.SearchBar .iconfont-search {
+    cursor: pointer;
+    padding: 17px;
+    position: absolute;
+    right: 0;
+}
+
+[class^="iconfont-"],
+[class*=" iconfont-"] {
+    line-height: 1;
+    speak: none;
+    display: inline-block;
+    font-family: iconfont !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* .iconfont-search:before {
+			content: "\f110";
+		} */
